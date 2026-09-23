@@ -1,6 +1,6 @@
-Claude Skills
+Exec Comms Skills
 
-A collection of Claude Skills.
+A collection of Claude Skills for executive communication. Currently just email, more may be added later.
 
 What's a skill?
 
@@ -26,4 +26,4 @@ Place that folder into the location your Claude setup reads skills from. In Clau
 That's it. Claude will pick it up automatically and use it when a task matches what the skill describes, you don't need to invoke it by name.
 Adding a new skill
 
-Create a new folder in this repo named after the skill, with a SKILL.md file inside describing what it should do and when Claude should use it. Keep it in plain language, explain the reasoning behind each instruction rather than just listing rules, that's what makes a skill generalize well instead of only working for the one example it was built from.
+Create a new folder in this repo named after the skill, with a SKILL.md file inside describing what it should do and when Claude should use it. Keep it in plain language, explain the reasoning behind each instruction rather than just listing rules, that's what makes a skill generalize well instead of only working for the one example it was built from. Keep new additions in the executive communication space, writing, reviewing, or preparing for high-stakes conversations, so the repo stays focused rather than becoming a catch-all.
