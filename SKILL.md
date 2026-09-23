@@ -1,6 +1,6 @@
 ---
 name: email-review
-description: Review any email draft, a new one or a reply, using the Alignment/Attunement framework and PULSE's Action-Based Email structure. Marks up the original email with numbered suggestions (like the old "Just Not Sorry" plugin that flagged self-undermining language), explains the reasoning behind each one, and never silently rewrites the email. The author decides what to accept. Use this whenever someone shares an email draft or thread and asks for feedback, wants a second pair of eyes before sending, asks to check for jargon, wordiness, or weak language, or asks you to draft a reply to an email they received. Applies to any email, not just a specific topic or client.
+description: Review any email draft, a new one or a reply, using the Alignment/Attunement framework and PULSE's Action-Based Email structure. Marks up the original email with numbered suggestions (like the old "Just Not Sorry" plugin that flagged self-undermining language), explains the reasoning behind each one, and ends with a clean combined version showing all suggestions applied together. Never silently rewrites the email, the original is always shown first and the author decides what to accept. Use this whenever someone shares an email draft or thread and asks for feedback, wants a second pair of eyes before sending, asks to check for jargon, wordiness, or weak language, or asks you to draft a reply to an email they received. Applies to any email, not just a specific topic or client.
 ---
 
 # Email Review
@@ -15,9 +15,12 @@ that language undercut the writer and what to say instead.
 
 The author is the one who decides what to accept. This skill's job is to
 point at specific things and explain why they might be worth changing, not
-to decide for the writer. Only produce a fully rewritten version if the
-person explicitly asks for one, and even then, keep the original available
-alongside it rather than replacing it.
+to decide for the writer. Every review still ends with a clean version
+showing what the email would look like if every suggestion were accepted,
+so the author can see it all together, but that combined version comes
+after the marked-up original and the explanations, never in place of them,
+and it's clearly labeled as one possible outcome, not the corrected version
+of their email.
 
 This skill is built on two real frameworks, not a one-off style preference:
 
@@ -68,6 +71,20 @@ missing or buried several paragraphs in, flag where it currently sits and
 suggest what the Launch line could be, stated up front, in its own short
 paragraph.
 
+Being concrete about the ask and being warm about it are not in tension,
+and it's easy to overcorrect a vague Launch into one that reads as a
+command rather than a person talking to a colleague. If the reader is
+someone the writer has a warm or ongoing relationship with, watch for a
+Launch that swaps vagueness for bluntness ("Download this, install it, run
+it on a real example" reads like an instruction manual) rather than
+finding a version that's just as clear about what's being asked but still
+sounds like the writer ("Download it, play around with it, let me know
+what you think" asks for exactly the same three things without the
+clipped, list-like phrasing). Flag a Launch that's technically clear but
+tonally cold, the fix usually isn't to add hedging language back in (that
+undoes Step 4 above), it's to write the same instruction the way the
+writer would actually say it out loud to that person.
+
 **Subject line, only when it's a reply.** For a new email, subject lines
 are proposed directly since there's no existing one to weigh against (see
 below). For a reply, don't suggest changing it by default, changing a
@@ -96,10 +113,25 @@ than cutting.
 If this is a new email rather than a reply, propose 2-3 concrete subject
 line options as part of the review, favoring an action-oriented subject
 that tells the reader what's being asked or what happened before they open
-it (for example `Request: sign-off on Q3 budget` rather than `Q3 budget`).
-This is the one case where the skill proposes something outright rather
+it. This is the one case where the skill proposes something outright rather
 than flagging and explaining, since there's no existing subject line to
 weigh a change against.
+
+Before proposing one, decide whether this email is an **Action Ask** (the
+writer needs the reader to do something, decide something, or respond) or
+an **Action Taken** (the writer is informing the reader that something
+happened, with nothing required back). This matters more than it sounds
+like it should: it's easy to draft an email that's actually asking for
+something while wording it like a status update, which buries the ask
+under a tone that reads as "for your information" rather than "I need
+this from you." When in doubt, ask: does the reader need to do anything
+after reading this? If yes, it's an Ask, and both the subject and the
+Launch (see below) should read that way.
+
+- **Action Ask examples:** `Request: sign-off on Q3 budget`, `Feedback
+  Requested: [topic]`, `Meeting Request: [topic]`.
+- **Action Taken examples:** `Update: [topic]`, `FYI: [topic]`, `Status
+  Update: [topic]`.
 
 ## How to present the review
 
@@ -111,10 +143,16 @@ weigh a change against.
    buried Launch, subject line, scannability, standing point), explain why
    it's worth a second look, and give a specific suggested alternative, not
    just "consider rephrasing."
-3. **Close with a plain statement that these are suggestions only,** nothing
-   has been changed, and the author decides what to keep. Offer, but don't
-   default to, producing a combined version with all suggestions applied if
-   they'd find that easier to review than accepting them one by one.
+3. **State plainly that these are suggestions only,** nothing has been
+   changed, and the author decides what to keep.
+4. **Always close with the full alternate version.** Under a clear heading
+   like "If you accepted every suggestion above," show what the email would
+   look like with all of them applied together, clean and complete, subject
+   line through sign-off, with no bracketed numbers or explanations mixed
+   in. This is for the author to see the whole picture at a glance, it isn't
+   a replacement for the marked-up original and explanations above it, and
+   it isn't "the fixed version," just one possible result of accepting
+   everything.
 
 **Example of one entry:**
 
