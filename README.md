@@ -1,6 +1,6 @@
 Claude Skills
 
-A shared collection of Claude Skills for the Analytics Ninja team.
+A shared collection of Claude Skills.
 
 What's a skill?
 
@@ -20,5 +20,4 @@ Download or copy the skill's folder (for example, email-review) from this repo.
 Place that folder into the location your Claude setup reads skills from. In Claude Code, that's typically a .claude/skills/ folder, either inside a specific project or in your home directory if you want it available everywhere.
 That's it. Claude will pick it up automatically and use it when a task matches what the skill describes, you don't need to invoke it by name.
 Adding a new skill
-
 Create a new folder in this repo named after the skill, with a SKILL.md file inside describing what it should do and when Claude should use it. Keep it in plain language, explain the reasoning behind each instruction rather than just listing rules, that's what makes a skill generalize well instead of only working for the one example it was built from.
