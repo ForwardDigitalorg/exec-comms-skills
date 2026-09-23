@@ -1,127 +1,124 @@
 ---
 name: email-review
-description: Review or rewrite an email draft (new email or a reply) so it leads with the decision or ask, cuts unnecessary jargon, and is organized to be scanned in seconds rather than read start to finish. Use this whenever someone shares an email draft or thread and asks for feedback, wants it made clearer/shorter/more direct, asks you to simplify or tighten an email before sending, or asks you to draft a reply to an email they received. Also use it proactively whenever you are about to draft any email on someone's behalf, not just when asked to "review" one.
+description: Review any email draft, a new one or a reply, using the Alignment/Attunement framework and PULSE's Action-Based Email structure. Marks up the original email with numbered suggestions (like the old "Just Not Sorry" plugin that flagged self-undermining language), explains the reasoning behind each one, and never silently rewrites the email. The author decides what to accept. Use this whenever someone shares an email draft or thread and asks for feedback, wants a second pair of eyes before sending, asks to check for jargon, wordiness, or weak language, or asks you to draft a reply to an email they received. Applies to any email, not just a specific topic or client.
 ---
 
 # Email Review
 
-Most recipients scan an email rather than read it top to bottom. The job of this
-skill is to make sure the thing that matters most survives a scan, and that
-everything else supports it without slowing the reader down.
+## The core rule: mark up, don't rewrite
 
-## Step 1: Figure out if this is a new email or a reply
+This skill never produces a silent rewrite as its default output. The
+original email is always shown in full, unchanged, with specific spots
+flagged and explained, the way the old "Just Not Sorry" plugin used to
+underline phrases like "I'm sorry but" or "just" and explain, on hover, why
+that language undercut the writer and what to say instead.
 
-Ask, if it isn't already obvious from context: is this a brand new email, or a
-reply to something someone else sent?
+The author is the one who decides what to accept. This skill's job is to
+point at specific things and explain why they might be worth changing, not
+to decide for the writer. Only produce a fully rewritten version if the
+person explicitly asks for one, and even then, keep the original available
+alongside it rather than replacing it.
 
-This matters because the subject line gets handled differently:
+This skill is built on two real frameworks, not a one-off style preference:
 
-- **New email:** propose 2-3 concrete subject line options. Favor an
-  action-oriented subject that tells the reader what's being asked of them or
-  what happened, before they open it (for example `Request: sign-off on Q3
-  budget` rather than `Q3 budget`). Let the person pick or edit rather than
-  guessing which one lands.
-- **Reply:** default to keeping the existing subject line unchanged, that's
-  what keeps a thread searchable and lets people follow it in their inbox.
-  But always ask up front whether it's worth adjusting anyway, specifically
-  when the thread has drifted onto a different topic than its subject still
-  describes, when the ask has changed since the subject was written, or when
-  a decision-maker skimming their inbox would have trouble telling this reply
-  apart from others in the same thread. Don't change it silently either way,
-  the point is to make a deliberate call, not a reflexive one.
+- **Alignment and Attunement**, from Margaret Keys' Executive Communications
+  training. Alignment is about the message itself: right content, right room,
+  right time, no buried surprises. Attunement is about the audience: knowing
+  your own authority while genuinely meeting the reader where they are, not
+  speaking down to them and not going over their head either. Attunement is
+  not the same as being warm, it's about matching what a specific reader
+  actually needs.
+- **PULSE's "Anatomy of an Action-Based Email"** (DoubleGemini, Prasanth
+  Nair), an 8-step structure for any email that's asking for something or
+  informing someone of an action: tone, specific recipients, an action
+  subject, a friendly greeting, an up-front action ("the Launch"), scannable
+  content, a sign-off matched to context, and a timely send.
 
-## Step 2: Find the one thing the reader most needs, and write it last, place it first
+## What to look for
 
-Draft the substance of the email first: the reasoning, the options, the
-context. Once it's written, ask yourself what the single most important
-sentence is, the decision, the recommendation, the direct ask, or the one
-fact that changes what the reader does next. That sentence (or two, if it
-genuinely needs both a headline and a one-line reason) goes in its own short
-paragraph at the very top of the email, in italics.
+Read the draft once fully before flagging anything, then go through it
+looking for each of these. Not every email will have all of them.
 
-Writing it last and placing it first is intentional: it's much easier to spot
-the real headline once the rest of the email already exists than to guess it
-before you've thought the whole thing through. Don't skip this step just
-because the email is short or casual, a two-line reply still benefits from
-knowing what its own point is.
+**Self-undermining or hedging language.** Phrases that quietly weaken the
+writer's authority or ownership of the message: "just" used as a
+minimizer ("just wanted to..."), "I'm sorry, but," "I think" or "I feel"
+in front of a statement the writer is actually sure of, "does that make
+sense?" tacked onto a clear instruction, "sort of," "kind of." Flag the
+exact phrase and suggest either cutting it or a more direct alternative.
+This is Attunement in the other direction, bringing the writer's own
+authority into the room, not just meeting the reader.
 
-**Example (from a real pricing-negotiation email):**
+**Jargon or unexplained technical terms.** A good test: would someone
+outside this specific field need it explained? If yes, flag the term and
+suggest the plain-language version. Exception: if a term is itself the
+crux of an open question, where the plain-language paraphrase would blur
+the actual distinction being asked about, don't suggest cutting it, flag
+instead that it deserves its own clearly labeled line so it reads as a
+decision point rather than one more technical detail buried in a paragraph.
 
-Instead of leading with background and burying the recommendation:
-> "Thanks for sending the model over. As we look at this approach... [several
-> paragraphs of reasoning]... Bottom line, we don't recommend this."
+**Unnecessary wordiness.** Repetition across sentences, throat-clearing
+("I wanted to reach out to...", "I just wanted to follow up on..."),
+qualifiers that don't add information. Flag the passage and suggest a
+tighter version.
 
-Lead with it:
-> *We don't recommend the 5% revenue-share structure. We'd recommend moving
-> forward with the annual fixed-fee model instead.*
->
-> Thanks for sending the model over, here's where we landed and why.
+**A buried or missing Launch.** PULSE's term for the up-front action, the
+single most important sentence: the decision, the recommendation, the
+direct ask, or the one fact that changes what the reader does next. If it's
+missing or buried several paragraphs in, flag where it currently sits and
+suggest what the Launch line could be, stated up front, in its own short
+paragraph.
 
-## Step 3: Organize the body so it can be scanned, not just read
+**Subject line, only when it's a reply.** For a new email, subject lines
+are proposed directly since there's no existing one to weigh against (see
+below). For a reply, don't suggest changing it by default, changing a
+thread's subject makes it harder to find and follow. Only flag it if the
+thread has drifted onto a different topic than the subject still describes,
+the ask has changed since the subject was written, or a reader skimming
+their inbox would have trouble telling this reply apart from others in the
+same thread.
 
-Once the headline is at the top, break up everything beneath it so a reader
-skimming for the parts that apply to them can find those parts fast:
+**Weak scannability.** Long paragraphs doing more than one job, a list of
+options or open questions written as one dense paragraph instead of
+bullets, no bold lead-ins to help a skimming reader find the part that
+applies to them. Flag where structure would help and suggest the shape
+(bullets, a bold lead-in phrase, splitting a paragraph), without rewriting
+the paragraph in full.
 
-- Use a short bold lead-in phrase for each distinct point, followed by one or
-  two plain sentences. Treat each bold phrase like a mini-heading for that
-  paragraph, not just emphasis in the middle of a sentence.
-- Use bullets or a numbered list for anything with more than one part, options
-  being compared, several open questions, a sequence of steps. Full sentences
-  in each bullet are fine and often better than clipped fragments, especially
-  when money, dates, or contract terms are involved and the nuance actually
-  matters.
-- Keep paragraphs short. If a paragraph is doing two jobs, split it.
+**A standing point at risk of getting lost.** If the draft is dense or
+being trimmed, watch for a point that isn't part of the immediate ask but
+is still important, an existing recommendation, a prior commitment,
+reassurance the reader needs so the rest of the email doesn't read as more
+negative or uncertain than intended. Flag it as worth protecting rather
+than cutting.
 
-## Step 4: Cut jargon, but don't sand away the one term that's actually load-bearing
+## For a brand new email specifically
 
-Default to plain language over technical or internal shorthand. A good test:
-would someone outside this specific field need it explained? If yes, either
-explain it in a few plain words or drop the term entirely and just say the
-plain-language version.
+If this is a new email rather than a reply, propose 2-3 concrete subject
+line options as part of the review, favoring an action-oriented subject
+that tells the reader what's being asked or what happened before they open
+it (for example `Request: sign-off on Q3 budget` rather than `Q3 budget`).
+This is the one case where the skill proposes something outright rather
+than flagging and explaining, since there's no existing subject line to
+weigh a change against.
 
-The exception is a term that is itself the crux of an open question, where
-using the plain-language paraphrase would blur the actual distinction being
-asked about. In that case, keep the term, but give it its own clearly labeled
-line rather than letting it pass by inside a dense paragraph, so it reads as
-"this specific thing needs a decision" rather than "one more technical detail
-among many."
+## How to present the review
 
-**Example:** rather than writing a paragraph that mentions confidence
-intervals, point estimates, and statistical significance all together, most
-of that becomes plain language ("the actual number falls somewhere in a
-range, not one fixed figure"), while the one open question that genuinely
-needs the technical concept gets its own bolded line:
+1. **Show the original email in full, unchanged.** Mark each flagged spot
+   inline with a bracketed number right after the phrase or passage, for
+   example: "I just [1] wanted to follow up on this."
+2. **List the suggestions below, one per number.** For each: quote the
+   flagged text, name the category (hedging language, jargon, wordiness,
+   buried Launch, subject line, scannability, standing point), explain why
+   it's worth a second look, and give a specific suggested alternative, not
+   just "consider rephrasing."
+3. **Close with a plain statement that these are suggestions only,** nothing
+   has been changed, and the author decides what to keep. Offer, but don't
+   default to, producing a combined version with all suggestions applied if
+   they'd find that easier to review than accepting them one by one.
 
-> **A question of statistical significance.** Would this fee apply only when
-> the result is big enough to be statistically meaningful, or would it apply
-> to any observed change, even one small enough to just be normal
-> month-to-month variation? That's not a detail, it changes what the number
-> actually means.
+**Example of one entry:**
 
-## Step 5: Don't lose a standing point while tightening everything else
-
-When simplifying or shortening a longer draft, watch for a point that isn't
-part of the immediate back-and-forth but is still important context, an
-existing recommendation, a prior commitment, a piece of reassurance the
-reader needs so they don't misread the rest of the email as more negative or
-uncertain than it is. It's easy to cut this kind of line by accident when
-compressing everything else, since it doesn't obviously belong to any single
-bullet. Give it its own short bolded line rather than letting it disappear.
-
-## Step 6: Keep it shorter than your instinct says
-
-After a full draft exists, look for anything that can be cut without losing
-a distinct point. Repetition across paragraphs, hedging language, and
-throat-clearing ("I wanted to reach out to...", "I just wanted to follow up
-on...") are the first things to go. If two sentences make the same point in
-different words, keep the sharper one.
-
-## Output format
-
-Always present:
-
-1. The finished email (subject line, italicized headline paragraph, sectioned
-   body, sign-off).
-2. A short note on what changed and why, if this is a revision of an existing
-   draft, so the person can sanity-check that nothing important got lost in
-   the simplification.
+> **[3] Jargon.** "cookie dilution and cross-device interactions" (paragraph
+> 2). A reader outside data/analytics likely won't know this term.
+> Suggested plain-language version: "the tracking gets less reliable over a
+> long test, people switch devices, cookies expire, that kind of thing."
